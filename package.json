@@ -1,0 +1,39 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "My simplest auth template on NodeJS and PassportJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Auth",
+    "Example",
+    "NodeJS",
+    "PassportJS",
+    "ES",
+    "passport-auth",
+    "passport-session",
+    "hbs",
+    "handlebars",
+    "template"
+  ],
+  "author": {
+    "name": "lootboxer",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "hbs": "^4.0.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}

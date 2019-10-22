@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="/css/main.css" type="text/css">
+	<title>Images</title>
+</head>
+<body>
+	<h1>Hello {{user.displayName}}!</h1>
+	<div>
+		<div class="gallery" id="gallery">
+			{{#each images}}
+				<a class="content">
+					<img src="./images/{{ this }}">
+				</a>
+			{{/each}}
+		</div>
+	</div>
+</body>
+</html>

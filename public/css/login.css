@@ -1,0 +1,14 @@
+
+form {
+  background-color: bisque;
+  border-radius: 5%;
+  position: absolute;
+  display: block;
+  left: 20%;
+  top: 20%;
+  text-align: center;
+  padding: 2%;
+}
+div {
+  margin-top: 10px;
+}
