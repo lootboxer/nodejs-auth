@@ -18,6 +18,7 @@ npm i
 npm run start
 ```
 After that you will see, that nodemon and express started
+
 ![Nodemon with express started](/readme_images/console.png)
 
 If you go on "[http://localhost:3000](http://localhost:3000)" you will see:
@@ -30,4 +31,6 @@ Login | Password
 *admin* | *admin*
 
 **Congratulate!🎉 You will be redirected in gallery**
+
+
 ![Gallery](/readme_images/gallery.png)
